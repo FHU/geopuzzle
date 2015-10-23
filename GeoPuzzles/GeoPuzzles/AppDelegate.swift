@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor.greenColor()
         UINavigationBar.appearance().barStyle = UIBarStyle.Black
         UINavigationBar.appearance().titleTextAttributes = [
-            NSFontAttributeName: UIFont(name: "AvenirNext-Heavy", size: 24)!, NSForegroundColorAttributeName: UIColor.whiteColor()]//change font!
+            NSFontAttributeName: UIFont(name: "Georgia-Bold", size: 24)!, NSForegroundColorAttributeName: UIColor.whiteColor()]//change font!
         
         return true
     }
