@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D45E8ACE1BD977490041C390 /* GeneratePuzzleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D45E8AD01BD977A80041C390 /* GeneratePuzzleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D45E8AD21BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D4F0D0541BD9D7C6004D0330 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0531BD9D7C6004D0330 /* DummyData.swift */; settings = {ASSET_TAGS = (); }; };
+		D4F0D0561BD9E0EC004D0330 /* FHU_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */; settings = {ASSET_TAGS = (); }; };
+		D4F0D0581BD9E9B6004D0330 /* PuzzleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		EC3DE7EE1BD03CD80085234B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DE7ED1BD03CD80085234B /* AppDelegate.swift */; };
 		EC3DE7F01BD03CD80085234B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DE7EF1BD03CD80085234B /* ViewController.swift */; };
 		EC3DE7F31BD03CD80085234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3DE7F11BD03CD80085234B /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleTableViewCell.swift; sourceTree = "<group>"; };
+		D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleTableViewController.swift; sourceTree = "<group>"; };
+		D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		D4F0D0531BD9D7C6004D0330 /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FHU_Campus.jpg; path = ../../../../Downloads/FHU_Campus.jpg; sourceTree = "<group>"; };
+		D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDetailsViewController.swift; sourceTree = "<group>"; };
 		EC3DE7EA1BD03CD80085234B /* GeoPuzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPuzzles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3DE7ED1BD03CD80085234B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC3DE7EF1BD03CD80085234B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +92,13 @@
 				EC3DE7ED1BD03CD80085234B /* AppDelegate.swift */,
 				EC3DE7EF1BD03CD80085234B /* ViewController.swift */,
 				EC3DE7F11BD03CD80085234B /* Main.storyboard */,
+				D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */,
+				D4F0D0531BD9D7C6004D0330 /* DummyData.swift */,
+				D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */,
+				D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */,
+				D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */,
 				EC3DE7F41BD03CD80085234B /* Assets.xcassets */,
+				D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */,
 				EC3DE7F61BD03CD80085234B /* LaunchScreen.storyboard */,
 				EC3DE7F91BD03CD80085234B /* Info.plist */,
 			);
@@ -176,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F0D0561BD9E0EC004D0330 /* FHU_Campus.jpg in Resources */,
 				EC3DE7F81BD03CD80085234B /* LaunchScreen.storyboard in Resources */,
 				EC3DE7F51BD03CD80085234B /* Assets.xcassets in Resources */,
 				EC3DE7F31BD03CD80085234B /* Main.storyboard in Resources */,
@@ -196,7 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F0D0541BD9D7C6004D0330 /* DummyData.swift in Sources */,
 				EC3DE7F01BD03CD80085234B /* ViewController.swift in Sources */,
+				D45E8ACE1BD977490041C390 /* GeneratePuzzleTableViewCell.swift in Sources */,
+				D4F0D0581BD9E9B6004D0330 /* PuzzleDetailsViewController.swift in Sources */,
+				D45E8AD01BD977A80041C390 /* GeneratePuzzleTableViewController.swift in Sources */,
+				D45E8AD21BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift in Sources */,
 				EC3DE7EE1BD03CD80085234B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +411,7 @@
 				EC3DE8091BD03CD90085234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3DE80A1BD03CD90085234B /* Build configuration list for PBXNativeTarget "GeoPuzzlesTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +420,7 @@
 				EC3DE80C1BD03CD90085234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
