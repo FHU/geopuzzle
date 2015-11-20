@@ -12,5 +12,4 @@ class GeneratePuzzleTableViewCell: UITableViewCell {
 
     @IBOutlet weak var puzzleImage: UIImageView!
     @IBOutlet weak var puzzleName: UILabel!
-
 }

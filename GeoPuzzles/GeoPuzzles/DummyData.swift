@@ -10,8 +10,14 @@ import UIKit
 
 class DummyData: NSObject {
 
-    var randomPuzzles : [String] = ["Quick Puzzles", "Road Trip"]
-    var localPuzzles : [String] = ["FHU Tour", "Romance in Henderson", "Food Run", "Conquer The Mount", "Night in Jackson"]
+    var randomSketches : [String] = ["Draw Anything"]
+    var featuredSketches : [String] = ["Something Patriotic"]
+    var animalSketches : [String] = ["Pets", "Birds", "Farm Animals", "Zoo Animals", "Wild Animals", "Exotic Animals"]
+    var cartoonSketches : [String] = ["Tom & Jerry", "Sonic", "Pokemon", "Jonny Bravo", "Mickey Mouse", "Family Guy", "Looney Tunes", "The Simpsons", "Charli Brown", "Flinstone", "Popeye", "Super Heros"]
+    var petSketches : [String] = ["Scotty Reynolds"]
+    var sketchLocation : [String] = ["Henderson, TN"]
+    var counter : [String] = ["1 Day"]
+    var sketchDescription : [String] = ["My dog Troy"]
     override init() {
         
     }

@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D45E8ACE1BD977490041C390 /* GeneratePuzzleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D45E8AD01BD977A80041C390 /* GeneratePuzzleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D45E8AD21BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D4F0D0541BD9D7C6004D0330 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0531BD9D7C6004D0330 /* DummyData.swift */; settings = {ASSET_TAGS = (); }; };
-		D4F0D0561BD9E0EC004D0330 /* FHU_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */; settings = {ASSET_TAGS = (); }; };
-		D4F0D0581BD9E9B6004D0330 /* PuzzleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D43F3A101BFE580F00225725 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43F3A0F1BFE580F00225725 /* CategoryTableViewController.swift */; };
+		D43F3A121BFEABB200225725 /* star_rating.png in Resources */ = {isa = PBXBuildFile; fileRef = D43F3A111BFEABB200225725 /* star_rating.png */; };
+		D43F3A141BFEC2B400225725 /* SketchHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43F3A131BFEC2B400225725 /* SketchHeaderTableViewCell.swift */; };
+		D43F3A161BFEC2FA00225725 /* SketchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43F3A151BFEC2FA00225725 /* SketchesTableViewCell.swift */; };
+		D45E8ACE1BD977490041C390 /* GeneratePuzzleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */; };
+		D45E8AD01BD977A80041C390 /* GeneratePuzzleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */; };
+		D45E8AD21BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */; };
+		D4A5BF001BE2B15A00EAF804 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5BEFF1BE2B15A00EAF804 /* MapViewController.swift */; };
+		D4F0D0541BD9D7C6004D0330 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0531BD9D7C6004D0330 /* DummyData.swift */; };
+		D4F0D0561BD9E0EC004D0330 /* FHU_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */; };
+		D4F0D0581BD9E9B6004D0330 /* PuzzleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */; };
 		EC3DE7EE1BD03CD80085234B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DE7ED1BD03CD80085234B /* AppDelegate.swift */; };
 		EC3DE7F01BD03CD80085234B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DE7EF1BD03CD80085234B /* ViewController.swift */; };
 		EC3DE7F31BD03CD80085234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3DE7F11BD03CD80085234B /* Main.storyboard */; };
@@ -32,9 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D43F3A0F1BFE580F00225725 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		D43F3A111BFEABB200225725 /* star_rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_rating.png; path = "../../../../../../var/folders/tx/xfr1kvss19161w5ng30pt8qc0000gn/T/com.skitch.skitch/DMD561D11CC-4C01-4E90-93C2-B2ADCDADEFF2/star_rating.png"; sourceTree = "<group>"; };
+		D43F3A131BFEC2B400225725 /* SketchHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		D43F3A151BFEC2FA00225725 /* SketchesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchesTableViewCell.swift; sourceTree = "<group>"; };
 		D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleTableViewCell.swift; sourceTree = "<group>"; };
 		D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleTableViewController.swift; sourceTree = "<group>"; };
 		D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePuzzleHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		D4A5BEFF1BE2B15A00EAF804 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D4F0D0531BD9D7C6004D0330 /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
 		D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FHU_Campus.jpg; path = ../../../../Downloads/FHU_Campus.jpg; sourceTree = "<group>"; };
 		D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDetailsViewController.swift; sourceTree = "<group>"; };
@@ -92,13 +102,18 @@
 				EC3DE7ED1BD03CD80085234B /* AppDelegate.swift */,
 				EC3DE7EF1BD03CD80085234B /* ViewController.swift */,
 				EC3DE7F11BD03CD80085234B /* Main.storyboard */,
+				D43F3A0F1BFE580F00225725 /* CategoryTableViewController.swift */,
+				D4A5BEFF1BE2B15A00EAF804 /* MapViewController.swift */,
 				D4F0D0571BD9E9B6004D0330 /* PuzzleDetailsViewController.swift */,
 				D4F0D0531BD9D7C6004D0330 /* DummyData.swift */,
 				D45E8ACF1BD977A70041C390 /* GeneratePuzzleTableViewController.swift */,
 				D45E8AD11BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift */,
+				D43F3A131BFEC2B400225725 /* SketchHeaderTableViewCell.swift */,
+				D43F3A151BFEC2FA00225725 /* SketchesTableViewCell.swift */,
 				D45E8ACD1BD977490041C390 /* GeneratePuzzleTableViewCell.swift */,
 				EC3DE7F41BD03CD80085234B /* Assets.xcassets */,
 				D4F0D0551BD9E0EC004D0330 /* FHU_Campus.jpg */,
+				D43F3A111BFEABB200225725 /* star_rating.png */,
 				EC3DE7F61BD03CD80085234B /* LaunchScreen.storyboard */,
 				EC3DE7F91BD03CD80085234B /* Info.plist */,
 			);
@@ -163,6 +178,7 @@
 				TargetAttributes = {
 					EC3DE7E91BD03CD80085234B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = XDGUJ5LZL6;
 					};
 					EC3DE7FD1BD03CD90085234B = {
 						CreatedOnToolsVersion = 7.0;
@@ -197,6 +213,7 @@
 				D4F0D0561BD9E0EC004D0330 /* FHU_Campus.jpg in Resources */,
 				EC3DE7F81BD03CD80085234B /* LaunchScreen.storyboard in Resources */,
 				EC3DE7F51BD03CD80085234B /* Assets.xcassets in Resources */,
+				D43F3A121BFEABB200225725 /* star_rating.png in Resources */,
 				EC3DE7F31BD03CD80085234B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,13 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43F3A161BFEC2FA00225725 /* SketchesTableViewCell.swift in Sources */,
 				D4F0D0541BD9D7C6004D0330 /* DummyData.swift in Sources */,
 				EC3DE7F01BD03CD80085234B /* ViewController.swift in Sources */,
+				D43F3A141BFEC2B400225725 /* SketchHeaderTableViewCell.swift in Sources */,
 				D45E8ACE1BD977490041C390 /* GeneratePuzzleTableViewCell.swift in Sources */,
 				D4F0D0581BD9E9B6004D0330 /* PuzzleDetailsViewController.swift in Sources */,
 				D45E8AD01BD977A80041C390 /* GeneratePuzzleTableViewController.swift in Sources */,
+				D43F3A101BFE580F00225725 /* CategoryTableViewController.swift in Sources */,
 				D45E8AD21BD9958D0041C390 /* GeneratePuzzleHeaderTableViewCell.swift in Sources */,
 				EC3DE7EE1BD03CD80085234B /* AppDelegate.swift in Sources */,
+				D4A5BF001BE2B15A00EAF804 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +371,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GeoPuzzles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.GeoPuzzles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -361,10 +385,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GeoPuzzles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.GeoPuzzles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
